@@ -1,16 +1,3 @@
-let stringArray = ["One", "Hey", "Array"];
-let monitors = ["acer", "asus", 555];
-let mixedData = [true, 1, "roman"];
-
-
-stringArray[0] = "Random";
-stringArray.push("hichiker");
-
-monitors[0] = "razor";
-monitors.unshift(222);
-
-mixedData = [...monitors, ...mixedData];
-
 // Arrays in TS
 let test: (number)[] = [];
 let brands: string[] = []
